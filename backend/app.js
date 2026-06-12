@@ -115,6 +115,15 @@ app.use((err, req, res, next) => {
 });
 
 
+
+app.get("/health", (req, res) => {
+  res.json({
+    status: "ok",
+    service: "backend",
+    timestamp: new Date().toISOString(),
+  });
+});
+
 app.listen(PORT, () => {
   console.log(` Server running on port ${PORT}`);
 });
