@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "resend": "^2.0.0",
+    "@swapnil454/tracepilot": "^0.1.2",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
@@ -19,6 +19,7 @@
     "express-validator": "^7.2.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.17.2",
-    "nodemailer": "^7.0.5"
+    "nodemailer": "^7.0.5",
+    "resend": "^2.0.0"
   }
 }
